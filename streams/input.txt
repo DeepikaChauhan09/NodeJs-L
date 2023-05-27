@@ -1,0 +1,19 @@
+How can we listen to "http.Server" events? Or how can we instantiate a "http.Server" object?
+According to nodejs.org/api.html:
+"http.Server" is an EventEmitter with events like "request", "connection" .. etc.
+However I can't find a way to listen to these event as I am not sure how to instantiate a "http.Server" object. All examples I can find are using "http.createServer" and the api return a new web server object instead of a EventEmitter object.
+So, if I wosuld like to know "connection" event, how should i do so?
+<<i created this file manually, although we can create by it by write file fs-way too>>
+
+
+
+FINALYYYYYYYFINALYYYYYYYFINALYYYYYYY
+
+FINALYYYYYYYFINALYYYYYYYFINALYYYYYYY
+
+
+
+
+
+FINALYYYYYYY
+requestListener	Optional. Specifies a function to be executed every time the server gets a request. This function is called a requestListener, and handles request from the user, as well as response back to the user.

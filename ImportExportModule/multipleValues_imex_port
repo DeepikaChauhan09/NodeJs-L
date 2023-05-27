@@ -1,0 +1,18 @@
+ 
+    function age()
+    {
+        console.log("my age is 45")
+    }
+
+    function  sub(a,b)
+    {
+        //console.log( a-b);   both will work
+        return a-b;
+    }
+
+    const year=2024
+
+    //array destructuting will be used for exprting. as things will exports in object forms. 
+    
+    // module.exports={age, sub,year};
+    module.exports={age};
